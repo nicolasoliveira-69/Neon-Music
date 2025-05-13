@@ -1,0 +1,157 @@
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .produtos .produtos {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .produtos img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .botao-comprar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0078D7;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-comprar:hover {
+    background-color: #218838;
+  }
+  
+#container {
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    height: 650px;
+}
+
+#topo {
+    width: 900px;
+    height: 200px;
+    background-image: url(../html/banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#menu {
+    width: 900px;
+    height: 40px;
+    background-color: #5a07b9;
+    word-spacing: 40px;
+    padding-top: 20px;
+}
+
+#link1 {
+    width: 30px;
+    height: 15px;
+    margin-left: 200px;
+    float: left;
+}
+
+#link2 {
+    width: 30px;
+    height: 15px;
+    margin-left: 70px;
+    float: left;
+}
+
+#link3 {
+    width: 30px;
+    height: 15px;
+    margin-left: 90px;
+    float: left;
+}
+
+#link4 {
+    width: 30px;
+    height: 15px;
+    margin-left: 70px;
+    float: left;
+}
+
+#link5 {
+    width: 30px;
+    height: 15px;
+    margin-left: 90px;
+    float: left;
+}
+#conteudo {
+    width: 898px;
+    min-height: 300px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+#rodape {
+    width: 880px;
+    height: 45px;
+    background-color: #5a07b9;
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#menu a {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    font-family: Tahoma;
+    font-size: 20px;
+    color: #FF6
+}
+
+h1 {
+    font-family: "Arial Black";
+    color: #000;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Courier New";
+    font-size: 14px;
+    color: #000;
+    font-stretch: semi-expanded;
+    margin-left: 32px;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+}
